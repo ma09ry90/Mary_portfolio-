@@ -42,7 +42,7 @@
         <div class="hero-image animate-slideInRight" style="animation-delay: 0.2s">
           <div class="profile-placeholder">
             <img 
-              src="DSC08546.JPG" 
+              src="../src/assets/DSC08546.JPG" 
               alt="Mary Mengistu - Software Engineer" 
               class="profile-image"
             />
@@ -52,79 +52,95 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about">
-      <container>
-        <div class="section-header">
-          <h2>About Me</h2>
-          <div class="header-underline"></div>
+<section id="about" class="about">
+  <div class="container">
+    <div class="section-header">
+      <h2>About Me</h2>
+      <div class="header-underline"></div>
+    </div>
+
+    <div class="about-content">
+      <!-- Left Column: Text -->
+      <div class="about-text animate-slideInLeft">
+        <p class="greeting">Hello, I'm Mary Mengistu 👋</p>
+
+        <p>
+          I'm a Software Engineer based in Addis Ababa, Ethiopia, with a 
+          <strong>BSc in Information Technology</strong> and a 
+          <strong>Software Engineering Certificate from ALX</strong>.
+        </p>
+
+        <p>
+          I specialize in <strong>full-stack web development</strong>, 
+          <strong>business process automation</strong>, and 
+          <strong>network infrastructure design</strong>. I help businesses 
+          go digital and work more efficiently.
+        </p>
+
+        <p>
+          What drives me is solving real problems through technology — 
+          from multi-vendor e-commerce platforms to automated inventory 
+          systems and network routing protocols.
+        </p>
+
+        <p>
+          When I'm not coding, I explore new technologies, work on side 
+          projects, and find ways to make technology accessible to 
+          businesses across Africa.
+        </p>
+
+        <div class="about-highlights">
+          <p><span class="icon">📌</span> BSc in IT | ALX Certified</p>
+          <p><span class="icon">📍</span> Addis Ababa, Ethiopia</p>
+          <p><span class="icon">🎯</span> Open to Jobs, Internships, Freelance & Collaboration</p>
         </div>
-        
-        <div class="about-content">
-          <div class="about-text animate-slideInLeft">
-            <p>Hello, I'm Mary Mengistu 👋</p>
-            <p>
-              I'm a Software Engineer based in Addis Ababa, Ethiopia, with a Bachelor's in Information Technology and a Software Engineering Certificate from ALX.
-            </p>
-            <p>
-              I specialize in building full-stack web applications, automating business processes, and designing network infrastructure. I help businesses go digital and work more efficiently.
-            </p>
-            <p>
-              What drives me is solving real problems through technology — whether it's building a multi-vendor e-commerce platform, automating manual inventory tracking, or designing network routing protocols.
-            </p>
-            <p>
-              When I'm not coding, I'm exploring new technologies, working on side projects, and finding ways to make technology accessible to businesses in Ethiopia and across Africa.
-            </p>
-            
-            <div class="about-highlights mt-lg">
-              <p><strong>📌</strong> BSc in Information Technology | ALX Software Engineering Certified</p>
-              <p><strong>📍</strong> Addis Ababa, Ethiopia</p>
-              <p><strong>🎯</strong> Available for IT related Jobs, Internships, freelance projects and collaboration</p>
-            </div>
+      </div>
+
+      <!-- Right Column: Skills -->
+      <div class="about-skills animate-slideInRight">
+        <h3>Technologies & Tools</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">Python (Flask, Django)</span>
+          <span class="skill-tag">JavaScript (ES6+)</span>
+          <span class="skill-tag">React.js</span>
+          <span class="skill-tag">Vue.js</span>
+          <span class="skill-tag">PHP (Laravel)</span>
+          <span class="skill-tag">HTML5 & CSS3</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">Git & GitHub</span>
+          <span class="skill-tag">API Integration</span>
+          <span class="skill-tag">Cisco Packet Tracer</span>
+          <span class="skill-tag">Power Automate</span>
+        </div>
+
+        <div class="education">
+          <h4>Education</h4>
+          <div class="education-item">
+            <h5>BSc in Information Technology</h5>
+            <p class="text-muted">Jimma University Institute of Technology</p>
+            <p class="text-muted">Jimma, Ethiopia • 2026</p>
           </div>
-          
-          <div class="about-skills animate-slideInRight">
-            <h3>Technologies & Tools</h3>
-            <div class="skills-grid">
-              <span class="skill-tag">Python (Flask, Django)</span>
-              <span class="skill-tag">JavaScript (ES6+)</span>
-              <span class="skill-tag">React.js</span>
-              <span class="skill-tag">Vue.js</span>
-              <span class="skill-tag">PHP (Laravel)</span>
-              <span class="skill-tag">HTML5 & CSS3</span>
-              <span class="skill-tag">MySQL</span>
-              <span class="skill-tag">PostgreSQL</span>
-              <span class="skill-tag">Git & GitHub</span>
-              <span class="skill-tag">API Integration</span>
-              <span class="skill-tag">Cisco Packet Tracer</span>
-              <span class="skill-tag">Power Automate</span>
-            </div>
-            
-            <div class="education mt-xl">
-              <h4>Education</h4>
-              <div class="education-item">
-                <h5>BSc in Information Technology</h5>
-                <p class="text-muted">Jimma University Institute of Technology</p>
-                <p class="text-muted">Jimma, Ethiopia • 2026</p>
-              </div>
-              <div class="education-item mt-md">
-                <h5>Software Engineering Certificate</h5>
-                <p class="text-muted">ALX (African Leadership Group)</p>
-                <p class="text-muted">2025</p>
-              </div>
-            </div>
-            
-            <div class="certifications mt-xl">
-              <h4>Certifications</h4>
-              <ul class="cert-list">
-                <li>Software Engineering Certificate — ALX (2025)</li>
-                <li>5 Million Coders Program — Udacity & Ministry of Innovation and Technology, Ethiopia (2026)</li>
-                <li>e-She SSH Certificate — Ministry of Education & Partners, Ethiopia (2024)</li>
-              </ul>
-            </div>
+          <div class="education-item">
+            <h5>Software Engineering Certificate</h5>
+            <p class="text-muted">ALX (African Leadership Group)</p>
+            <p class="text-muted">2025</p>
           </div>
         </div>
-      </container>
-    </section>
+
+        <div class="certifications">
+          <h4>Certifications</h4>
+          <ul class="cert-list">
+            <li>Software Engineering Certificate — ALX (2025)</li>
+            <li>5 Million Coders Program — Udacity & Ministry of Innovation, Ethiopia (2026)</li>
+            <li>e-She SSH Certificate — Ministry of Education & Partners, Ethiopia (2024)</li>
+            <li>Soft Skills Certificates (7) — Self-Development, Communication, Time Management & more</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Experience Section -->
     <section id="experience" class="experience">
@@ -181,16 +197,12 @@
         <div class="projects-grid">
           <article class="project-card animate-fadeInUp" v-for="(project, index) in projects" :key="index" :style="{ 'animation-delay': (index * 0.1) + 's' }">
             <div class="project-image">
-              <div class="image-placeholder">
-                <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none">
-                  <rect width="400" height="300" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
-                  <rect x="50" y="40" width="300" height="220" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
-                  <circle cx="200" cy="150" r="40" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
-                  <text x="200" y="180" text-anchor="middle" font-size="16" fill="currentColor" opacity="0.5">
-                    <tspan x="200" dy="0">Project Screenshot</tspan>
-                  </text>
-                </svg>
-              </div>
+              <img 
+                :src="getProjectImagePath(index)"
+                :alt="`${project.title} - Project Screenshot`"
+                class="project-screenshot"
+                loading="lazy"
+              />
             </div>
             
             <div class="project-content">
@@ -208,18 +220,7 @@
           <h3 class="text-center mb-2xl">Networking Projects</h3>
           <div class="projects-grid">
             <article class="project-card animate-fadeInUp" v-for="(project, index) in networkProjects" :key="'net-' + index" :style="{ 'animation-delay': ((index + projects.length) * 0.1) + 's' }">
-              <div class="project-image">
-                <div class="image-placeholder">
-                  <svg width="100%" height="100%" viewBox="0 0 400 300" fill="none">
-                    <rect width="400" height="300" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
-                    <circle cx="100" cy="100" r="25" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
-                    <circle cx="300" cy="100" r="25" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
-                    <circle cx="200" cy="200" r="25" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="5,5" opacity="0.3"/>
-                    <line x1="125" y1="100" x2="275" y2="100" stroke="currentColor" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
-                    <text x="200" y="270" text-anchor="middle" font-size="14" fill="currentColor" opacity="0.5">Network Diagram</text>
-                  </svg>
-                </div>
-              </div>
+              
               
               <div class="project-content">
                 <h3 class="project-title">{{ project.title }}</h3>
@@ -272,51 +273,36 @@
               </div>
             </div>
             
-            <div class="social-links mt-lg">
-              <h4 class="mb-md">Connect With Me</h4>
-              <div class="social-icons">
-                <a href="https://github.com/ma09ry90" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-                  </svg>
-                </a>
-                <a href="https://linkedin.com/in/mary-mengistu-257a66329" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.004 1.418-.103.249-.129.597-.129.946v5.441h-3.554s.05-8.832 0-9.753h3.554v1.381c.43-.664 1.199-1.608 2.928-1.608 2.136 0 3.74 1.395 3.74 4.393v5.587zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.705 0-.948.77-1.707 1.968-1.707 1.197 0 1.928.759 1.94 1.707 0 .947-.743 1.705-1.993 1.705zm1.582 11.597H3.635V9.099h3.284v11.353zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                  </svg>
-                </a>
-              </div>
-            </div>
+            <!-- Social icons moved to right column; kept here removed to avoid duplication -->
           </div>
           
-          <form class="contact-form animate-slideInRight" @submit.prevent="handleSubmit">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" v-model="form.name" required placeholder="Your name">
+          <div class="contact-social animate-slideInRight">
+            <div class="social-links-vertical">
+              <a href="https://t.me/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" title="Telegram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M21.75 3.5L2.75 11.25c-.72.29-.69 1.34.04 1.58l4.18 1.39 1.61 5.17c.27.88 1.58.93 1.96.07l2.55-5.82 4.88 3.57c.88.64 2.06-.16 1.85-1.2L22.8 4.15c-.15-.76-.96-1.15-1.55-.65z"/>
+                </svg>
+              </a>
+
+              <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" title="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 6.5A4.5 4.5 0 1016.5 13 4.5 4.5 0 0012 8.5zm5.75-3.5a1.25 1.25 0 11-1.25 1.25A1.25 1.25 0 0117.75 5z"/>
+                </svg>
+              </a>
+
+              <a href="https://github.com/ma09ry90" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+
+              <a href="https://linkedin.com/in/mary-mengistu-257a66329" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.004 1.418-.103.249-.129.597-.129.946v5.441h-3.554s.05-8.832 0-9.753h3.554v1.381c.43-.664 1.199-1.608 2.928-1.608 2.136 0 3.74 1.395 3.74 4.393v5.587zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.705 0-.948.77-1.707 1.968-1.707 1.197 0 1.928.759 1.94 1.707 0 .947-.743 1.705-1.993 1.705zm1.582 11.597H3.635V9.099h3.284v11.353zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+              </a>
             </div>
-            
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" v-model="form.email" required placeholder="your@email.com">
-            </div>
-            
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" v-model="form.subject" required placeholder="What's this about?">
-            </div>
-            
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" v-model="form.message" required placeholder="Your message..." rows="6"></textarea>
-            </div>
-            
-            <button type="submit" class="btn btn-primary" :disabled="isSubmitting">
-              {{ isSubmitting ? 'Sending...' : 'Send Message' }}
-            </button>
-            
-            <p v-if="submitSuccess" class="submit-success">✓ Message sent successfully!</p>
-            <p v-if="submitError" class="submit-error">✗ Error sending message. Please try again.</p>
-          </form>
+          </div>
         </div>
       </container>
     </section>
@@ -339,15 +325,7 @@ export default {
       isScrolled: false,
       isMobileMenuOpen: false,
       currentYear: new Date().getFullYear(),
-      isSubmitting: false,
-      submitSuccess: false,
-      submitError: false,
-      form: {
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-      },
+      
       projects: [
         {
           title: 'Handy Store — Multi-Vendor E-Commerce Platform',
@@ -391,7 +369,15 @@ export default {
           description: 'Designed an IP addressing scheme and subnetting plan for a multi-floor building with detailed technical documentation.',
           technologies: ['Subnetting', 'IP Planning', 'Technical Documentation']
         }
-      ]
+      ],
+      projectImageMap: {
+        0: '../src/assets/handy_store.png',
+        1: '../src/assets/inventory-system.jpg',
+        2: '../src/assets/ushelf.png',
+        3: '../src/assets/wloye-task-tracker.png',
+        4: '../src/assets/library-system.png',
+        5: '../src/assets/blog-website.png'
+      }
     }
   },
   mounted() {
@@ -401,6 +387,10 @@ export default {
     window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
+    getProjectImagePath(index) {
+      const imagePath = this.projectImageMap[index]
+      return imagePath || '../src/assets/handy_store.jpg'
+    },
     handleScroll() {
       this.isScrolled = window.scrollY > 50
     },
@@ -412,30 +402,7 @@ export default {
         element.scrollIntoView({ behavior: 'smooth' })
       }
     },
-    async handleSubmit() {
-      this.isSubmitting = true
-      this.submitSuccess = false
-      this.submitError = false
-      
-      try {
-        // Simulate form submission
-        // In production, you would send to a backend service
-        await new Promise(resolve => setTimeout(resolve, 1500))
-        
-        this.submitSuccess = true
-        this.form = { name: '', email: '', subject: '', message: '' }
-        setTimeout(() => {
-          this.submitSuccess = false
-        }, 3000)
-      } catch (error) {
-        this.submitError = true
-        setTimeout(() => {
-          this.submitError = false
-        }, 3000)
-      } finally {
-        this.isSubmitting = false
-      }
-    }
+    
   }
 }
 </script>
@@ -831,7 +798,7 @@ body {
 
 .cert-list {
   list-style: none;
-  padding-left: 0;
+  padding-left: 0px;
 }
 
 .cert-list li {
@@ -1042,6 +1009,18 @@ body {
   background-color: var(--color-primary);
 }
 
+.project-screenshot {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform var(--transition-base);
+}
+
+.project-card:hover .project-screenshot {
+  transform: scale(1.05);
+}
+
 .image-placeholder {
   width: 100%;
   height: 100%;
@@ -1124,6 +1103,19 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-3xl);
   align-items: start;
+}
+
+.contact-social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.social-links-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  align-items: flex-end;
 }
 
 .contact-intro {
