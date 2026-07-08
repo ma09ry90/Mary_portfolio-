@@ -42,7 +42,7 @@
         <div class="hero-image animate-slideInRight" style="animation-delay: 0.2s">
           <div class="profile-placeholder">
             <img 
-              src="./assets/DSC08546.JPG" 
+              src="@/assets/DSC08546.JPG" 
               alt="Mary Mengistu - Software Engineer" 
               class="profile-image"
             />
@@ -51,79 +51,79 @@
       </container>
     </section>
 
-    <!-- About Section -->
+    
+
+    <!-- About Section (converted to timeline style similar to Experience) -->
     <section id="about" class="about">
-      <container>
+      <div class="container">
         <div class="section-header">
           <h2>About Me</h2>
           <div class="header-underline"></div>
         </div>
-        
-        <div class="about-content">
-          <div class="about-text animate-slideInLeft">
-            <p>Hello, I'm Mary Mengistu 👋</p>
-            <p>
-              I'm a Software Engineer based in Addis Ababa, Ethiopia, with a Bachelor's in Information Technology and a Software Engineering Certificate from ALX.
-            </p>
-            <p>
-              I specialize in building full-stack web applications, automating business processes, and designing network infrastructure. I help businesses go digital and work more efficiently.
-            </p>
-            <p>
-              What drives me is solving real problems through technology — whether it's building a multi-vendor e-commerce platform, automating manual inventory tracking, or designing network routing protocols.
-            </p>
-            <p>
-              When I'm not coding, I'm exploring new technologies, working on side projects, and finding ways to make technology accessible to businesses in Ethiopia and across Africa.
-            </p>
-            
-            <div class="about-highlights mt-lg">
-              <p><strong>📌</strong> BSc in Information Technology | ALX Software Engineering Certified</p>
-              <p><strong>📍</strong> Addis Ababa, Ethiopia</p>
-              <p><strong>🎯</strong> Available for IT related Jobs, Internships, freelance projects and collaboration</p>
+
+        <div class="experience-timeline about-timeline">
+          <div class="timeline-item animate-fadeInUp" style="animation-delay: 0.1s">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Mary Mengistu</h3>
+                <span class="timeline-date">Software Engineer</span>
+              </div>
+
+              <p class="timeline-company">Addis Ababa, Ethiopia</p>
+              <p>
+                I'm a Software Engineer with a <strong>BSc in Information Technology</strong> and a
+                <strong> Software Engineering Certificate from ALX</strong>. I specialize in
+                building full-stack web applications, automating business processes, and
+                designing network infrastructure.
+              </p>
+
+              <div class="about-highlights">
+                <p><span class="icon">📌</span> BSc in IT | ALX Certified</p>
+                <p><span class="icon">🎯</span> Open to Jobs, Internships, Freelance & Collaboration</p>
+              </div>
             </div>
           </div>
-          
-          <div class="about-skills animate-slideInRight">
-            <h3>Technologies & Tools</h3>
-            <div class="skills-grid">
-              <span class="skill-tag">Python (Flask, Django)</span>
-              <span class="skill-tag">JavaScript (ES6+)</span>
-              <span class="skill-tag">React.js</span>
-              <span class="skill-tag">Vue.js</span>
-              <span class="skill-tag">PHP (Laravel)</span>
-              <span class="skill-tag">HTML5 & CSS3</span>
-              <span class="skill-tag">MySQL</span>
-              <span class="skill-tag">PostgreSQL</span>
-              <span class="skill-tag">Git & GitHub</span>
-              <span class="skill-tag">API Integration</span>
-              <span class="skill-tag">Cisco Packet Tracer</span>
-              <span class="skill-tag">Power Automate</span>
-            </div>
-            
-            <div class="education mt-xl">
-              <h4>Education</h4>
-              <div class="education-item">
-                <h5>BSc in Information Technology</h5>
-                <p class="text-muted">Jimma University Institute of Technology</p>
-                <p class="text-muted">Jimma, Ethiopia • 2026</p>
+
+          <div class="timeline-item animate-fadeInUp" style="animation-delay: 0.2s">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Technologies & Tools</h3>
               </div>
-              <div class="education-item mt-md">
-                <h5>Software Engineering Certificate</h5>
-                <p class="text-muted">ALX (African Leadership Group)</p>
-                <p class="text-muted">2025</p>
+
+              <div class="skills-grid">
+                <span class="skill-tag">Python (Flask, Django),&emsp;</span>
+                <span class="skill-tag">JavaScript (ES6+),&emsp;</span>
+                <span class="skill-tag">Vue.js,&emsp;</span>
+                <span class="skill-tag">React.js,&emsp;</span>
+                <span class="skill-tag">PHP (Laravel),&emsp;</span>
+                <span class="skill-tag">HTML5 & CSS3,&emsp;</span>
+                <span class="skill-tag">MySQL,&emsp;</span>
+                <span class="skill-tag">PostgreSQL,&emsp;</span>
+                <span class="skill-tag">Git & GitHub,&emsp;</span>
+                <span class="skill-tag">API Integration,&emsp;</span>
+                <span class="skill-tag">Cisco Packet Tracer,&emsp;</span>
+                <span class="skill-tag">Power Automate</span>
               </div>
-            </div>
-            
-            <div class="certifications mt-xl">
-              <h4>Certifications</h4>
-              <ul class="cert-list">
-                <li>Software Engineering Certificate — ALX (2025)</li>
-                <li>5 Million Coders Program — Udacity & Ministry of Innovation and Technology, Ethiopia (2026)</li>
-                <li>e-She SSH Certificate — Ministry of Education & Partners, Ethiopia (2024)</li>
-              </ul>
+
+              <div class="education mt-lg">
+                <h4>Education</h4>
+                <div class="education-item">
+                  <h5>BSc in Information Technology</h5>
+                  <p class="text-muted">Jimma University Institute of Technology</p>
+                  <p class="text-muted">Jimma, Ethiopia • 2026</p>
+                </div>
+                <div class="education-item">
+                  <h5>Software Engineering Certificate</h5>
+                  <p class="text-muted">ALX (African Leadership Group)</p>
+                  <p class="text-muted">2025</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </container>
+      </div>
     </section>
 
     <!-- Experience Section -->
@@ -204,8 +204,6 @@
           <h3 class="text-center mb-2xl">Networking Projects</h3>
           <div class="projects-grid">
             <article class="project-card animate-fadeInUp" v-for="(project, index) in networkProjects" :key="'net-' + index" :style="{ 'animation-delay': ((index + projects.length) * 0.1) + 's' }">
-              
-              
               <div class="project-content">
                 <h3 class="project-title">{{ project.title }}</h3>
                 <p class="project-description">{{ project.description }}</p>
@@ -262,13 +260,13 @@
           
           <div class="contact-social animate-slideInRight">
             <div class="social-links-vertical">
-              <a href="https://t.me/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" title="Telegram">
+              <a href="https://t.me/Mary2mm" target="_blank" rel="noopener noreferrer" class="social-icon" title="Telegram">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M21.75 3.5L2.75 11.25c-.72.29-.69 1.34.04 1.58l4.18 1.39 1.61 5.17c.27.88 1.58.93 1.96.07l2.55-5.82 4.88 3.57c.88.64 2.06-.16 1.85-1.2L22.8 4.15c-.15-.76-.96-1.15-1.55-.65z"/>
                 </svg>
               </a>
 
-              <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" title="Instagram">
+              <a href="https://instagram.com/mary.mb1" target="_blank" rel="noopener noreferrer" class="social-icon" title="Instagram">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 6.5A4.5 4.5 0 1016.5 13 4.5 4.5 0 0012 8.5zm5.75-3.5a1.25 1.25 0 11-1.25 1.25A1.25 1.25 0 0117.75 5z"/>
                 </svg>
@@ -302,6 +300,13 @@
 </template>
 
 <script>
+// Import all images
+import handyStore from '@/assets/handy_store.png'
+//import inventorySystem from '@/assets/inventory_system.jpg'
+import ushelf from '@/assets/ushelf.png'
+import wloyeTaskTracker from '@/assets/wloye-task-tracker.png'
+import librarySystem from '@/assets/library-system.png'
+import blogWebsite from '@/assets/blog-website.png'
 export default {
   name: 'App',
   data() {
@@ -314,7 +319,8 @@ export default {
         {
           title: 'Handy Store — Multi-Vendor E-Commerce Platform',
           description: 'Full-featured multi-vendor e-commerce with payment integration, wishlist, cart, reviews, AR view, and social video page with like/comment/share functionality with simple delivery system.',
-          technologies: ['Vue.js', 'Laravel', 'MySQL', 'Chapa Payment Gateway']
+          technologies: ['Vue.js', 'Laravel', 'MySQL', 'Chapa Payment Gateway'],
+          image: handyStore
         },
         {
           title: 'Enterprise Inventory & Sales Management System',
@@ -324,22 +330,26 @@ export default {
         {
           title: 'Ushelf — Document Collection & File Sharing Platform',
           description: 'Platform for collecting documents with secure file sharing via invitation links.',
-          technologies: ['Flask', 'HTML', 'CSS', 'JavaScript']
+          technologies: ['Flask', 'HTML', 'CSS', 'JavaScript'],
+          image: ushelf
         },
         {
           title: 'Wloye Task Tracker',
           description: 'Task tracker with Personal, Career, and Special categories plus community engagement features (Telegram & Instagram integration).',
-          technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript']
+          technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+          image: wloyeTaskTracker
         },
         {
           title: 'Library Management System',
           description: 'Desktop application with book borrowing, return tracking, and user management.',
-          technologies: ['Java', 'NetBeans IDE']
+          technologies: ['Java', 'NetBeans IDE'],
+          image: librarySystem
         },
         {
           title: 'Blog Website',
           description: 'Built and maintained a blog website with content management features during my internship.',
-          technologies: ['Vue.js', 'Laravel']
+          technologies: ['Vue.js', 'Laravel'],
+          image: blogWebsite
         }
       ],
       networkProjects: [
@@ -355,12 +365,12 @@ export default {
         }
       ],
       projectImageMap: {
-        0: './assets/handy_store.jpg',
-        1: './assets/inventory-system.jpg',
-        2: './assets/ushelf.jpg',
-        3: './assets/wloye-task-tracker.jpg',
-        4: './assets/library-system.jpg',
-        5: './assets/blog-website.jpg'
+        0: '@/assets/handy_store.jpg',
+        1: '@/assets/inventory-system.jpg',
+        2: '@/assets/ushelf.jpg',
+        3: '@/assets/wloye-task-tracker.jpg',
+        4: '@/assets/library-system.jpg',
+        5: '@/assets/blog-website.jpg'
       }
     }
   },
@@ -372,8 +382,12 @@ export default {
   },
   methods: {
     getProjectImagePath(index) {
+      const project = this.projects[index]
+      if (project && project.image) {
+        return project.image
+      }
       const imagePath = this.projectImageMap[index]
-      return imagePath || './assets/handy_store.jpg'
+      return imagePath || '@/assets/handy_store.jpg'
     },
     handleScroll() {
       this.isScrolled = window.scrollY > 50
