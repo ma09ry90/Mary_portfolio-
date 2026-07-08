@@ -1,6 +1,7 @@
 {
   "name": "mary-portfolio",
   "version": "1.0.0",
+  "type": "module",
   "description": "Mary Mengistu's Professional Portfolio",
   "scripts": {
     "dev": "vite",
