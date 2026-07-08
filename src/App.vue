@@ -42,7 +42,7 @@
         <div class="hero-image animate-slideInRight" style="animation-delay: 0.2s">
           <div class="profile-placeholder">
             <img 
-              src="../src/assets/DSC08546.JPG" 
+              src="./assets/DSC08546.JPG" 
               alt="Mary Mengistu - Software Engineer" 
               class="profile-image"
             />
@@ -355,12 +355,12 @@ export default {
         }
       ],
       projectImageMap: {
-        0: '../src/assets/handy_store.png',
-        1: '../src/assets/inventory-system.jpg',
-        2: '../src/assets/ushelf.png',
-        3: '../src/assets/wloye-task-tracker.png',
-        4: '../src/assets/library-system.png',
-        5: '../src/assets/blog-website.png'
+        0: './assets/handy_store.jpg',
+        1: './assets/inventory-system.jpg',
+        2: './assets/ushelf.jpg',
+        3: './assets/wloye-task-tracker.jpg',
+        4: './assets/library-system.jpg',
+        5: './assets/blog-website.jpg'
       }
     }
   },
@@ -373,7 +373,7 @@ export default {
   methods: {
     getProjectImagePath(index) {
       const imagePath = this.projectImageMap[index]
-      return imagePath || '../src/assets/handy_store.jpg'
+      return imagePath || './assets/handy_store.jpg'
     },
     handleScroll() {
       this.isScrolled = window.scrollY > 50

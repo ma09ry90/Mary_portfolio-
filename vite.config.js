@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
+  assetsInclude: ['**/*.JPG', '**/*.jpg', '**/*.JPEG', '**/*.jpeg', '**/*.PNG', '**/*.png'],
   server: {
     port: 5173,
     open: true
@@ -10,6 +11,11 @@ export default defineConfig({
   build: {
     target: 'esnext',
     minify: 'terser',
-    sourcemap: false
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[hash][extname]'
+      }
+    }
   }
 })
