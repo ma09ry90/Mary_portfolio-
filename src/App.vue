@@ -52,95 +52,79 @@
     </section>
 
     <!-- About Section -->
-<section id="about" class="about">
-  <div class="container">
-    <div class="section-header">
-      <h2>About Me</h2>
-      <div class="header-underline"></div>
-    </div>
-
-    <div class="about-content">
-      <!-- Left Column: Text -->
-      <div class="about-text animate-slideInLeft">
-        <p class="greeting">Hello, I'm Mary Mengistu 👋</p>
-
-        <p>
-          I'm a Software Engineer based in Addis Ababa, Ethiopia, with a 
-          <strong>BSc in Information Technology</strong> and a 
-          <strong>Software Engineering Certificate from ALX</strong>.
-        </p>
-
-        <p>
-          I specialize in <strong>full-stack web development</strong>, 
-          <strong>business process automation</strong>, and 
-          <strong>network infrastructure design</strong>. I help businesses 
-          go digital and work more efficiently.
-        </p>
-
-        <p>
-          What drives me is solving real problems through technology — 
-          from multi-vendor e-commerce platforms to automated inventory 
-          systems and network routing protocols.
-        </p>
-
-        <p>
-          When I'm not coding, I explore new technologies, work on side 
-          projects, and find ways to make technology accessible to 
-          businesses across Africa.
-        </p>
-
-        <div class="about-highlights">
-          <p><span class="icon">📌</span> BSc in IT | ALX Certified</p>
-          <p><span class="icon">📍</span> Addis Ababa, Ethiopia</p>
-          <p><span class="icon">🎯</span> Open to Jobs, Internships, Freelance & Collaboration</p>
+    <section id="about" class="about">
+      <container>
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="header-underline"></div>
         </div>
-      </div>
-
-      <!-- Right Column: Skills -->
-      <div class="about-skills animate-slideInRight">
-        <h3>Technologies & Tools</h3>
-        <div class="skills-grid">
-          <span class="skill-tag">Python (Flask, Django)</span>
-          <span class="skill-tag">JavaScript (ES6+)</span>
-          <span class="skill-tag">React.js</span>
-          <span class="skill-tag">Vue.js</span>
-          <span class="skill-tag">PHP (Laravel)</span>
-          <span class="skill-tag">HTML5 & CSS3</span>
-          <span class="skill-tag">MySQL</span>
-          <span class="skill-tag">PostgreSQL</span>
-          <span class="skill-tag">Git & GitHub</span>
-          <span class="skill-tag">API Integration</span>
-          <span class="skill-tag">Cisco Packet Tracer</span>
-          <span class="skill-tag">Power Automate</span>
-        </div>
-
-        <div class="education">
-          <h4>Education</h4>
-          <div class="education-item">
-            <h5>BSc in Information Technology</h5>
-            <p class="text-muted">Jimma University Institute of Technology</p>
-            <p class="text-muted">Jimma, Ethiopia • 2026</p>
+        
+        <div class="about-content">
+          <div class="about-text animate-slideInLeft">
+            <p>Hello, I'm Mary Mengistu 👋</p>
+            <p>
+              I'm a Software Engineer based in Addis Ababa, Ethiopia, with a Bachelor's in Information Technology and a Software Engineering Certificate from ALX.
+            </p>
+            <p>
+              I specialize in building full-stack web applications, automating business processes, and designing network infrastructure. I help businesses go digital and work more efficiently.
+            </p>
+            <p>
+              What drives me is solving real problems through technology — whether it's building a multi-vendor e-commerce platform, automating manual inventory tracking, or designing network routing protocols.
+            </p>
+            <p>
+              When I'm not coding, I'm exploring new technologies, working on side projects, and finding ways to make technology accessible to businesses in Ethiopia and across Africa.
+            </p>
+            
+            <div class="about-highlights mt-lg">
+              <p><strong>📌</strong> BSc in Information Technology | ALX Software Engineering Certified</p>
+              <p><strong>📍</strong> Addis Ababa, Ethiopia</p>
+              <p><strong>🎯</strong> Available for IT related Jobs, Internships, freelance projects and collaboration</p>
+            </div>
           </div>
-          <div class="education-item">
-            <h5>Software Engineering Certificate</h5>
-            <p class="text-muted">ALX (African Leadership Group)</p>
-            <p class="text-muted">2025</p>
+          
+          <div class="about-skills animate-slideInRight">
+            <h3>Technologies & Tools</h3>
+            <div class="skills-grid">
+              <span class="skill-tag">Python (Flask, Django)</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">Vue.js</span>
+              <span class="skill-tag">PHP (Laravel)</span>
+              <span class="skill-tag">HTML5 & CSS3</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Git & GitHub</span>
+              <span class="skill-tag">API Integration</span>
+              <span class="skill-tag">Cisco Packet Tracer</span>
+              <span class="skill-tag">Power Automate</span>
+            </div>
+            
+            <div class="education mt-xl">
+              <h4>Education</h4>
+              <div class="education-item">
+                <h5>BSc in Information Technology</h5>
+                <p class="text-muted">Jimma University Institute of Technology</p>
+                <p class="text-muted">Jimma, Ethiopia • 2026</p>
+              </div>
+              <div class="education-item mt-md">
+                <h5>Software Engineering Certificate</h5>
+                <p class="text-muted">ALX (African Leadership Group)</p>
+                <p class="text-muted">2025</p>
+              </div>
+            </div>
+            
+            <div class="certifications mt-xl">
+              <h4>Certifications</h4>
+              <ul class="cert-list">
+                <li>Software Engineering Certificate — ALX (2025)</li>
+                <li>5 Million Coders Program — Udacity & Ministry of Innovation and Technology, Ethiopia (2026)</li>
+                <li>e-She SSH Certificate — Ministry of Education & Partners, Ethiopia (2024)</li>
+              </ul>
+            </div>
           </div>
         </div>
-
-        <div class="certifications">
-          <h4>Certifications</h4>
-          <ul class="cert-list">
-            <li>Software Engineering Certificate — ALX (2025)</li>
-            <li>5 Million Coders Program — Udacity & Ministry of Innovation, Ethiopia (2026)</li>
-            <li>e-She SSH Certificate — Ministry of Education & Partners, Ethiopia (2024)</li>
-            <li>Soft Skills Certificates (7) — Self-Development, Communication, Time Management & more</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </container>
+    </section>
 
     <!-- Experience Section -->
     <section id="experience" class="experience">
@@ -675,18 +659,23 @@ body {
 }
 
 /* =============================================
-   ABOUT SECTION
+   ABOUT SECTION (SIMPLIFIED)
    ============================================= */
 
 .about {
   background-color: var(--color-primary);
+  padding: var(--spacing-3xl) 0;
+}
+
+.about-container {
+  max-width: 900px;
 }
 
 .section-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-3xl);
   position: relative;
 }
 
@@ -719,57 +708,48 @@ body {
   margin-top: var(--spacing-md);
 }
 
-.about-content {
+.about-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-2xl);
-  align-items: start;
+  grid-template-columns: 1fr;
+}
+
+.about-text {
+  max-width: 100%;
+}
+
+.about-intro {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-lg);
 }
 
 .about-text p {
+  font-size: 1rem;
+  color: var(--color-text-muted);
   margin-bottom: var(--spacing-md);
   line-height: 1.8;
 }
 
-.about-text p:first-child {
-  font-size: 1.125rem;
-  font-weight: 600;
-  color: var(--color-text);
-}
-
-.about-highlights {
+.skills-highlight {
   padding: var(--spacing-lg);
   background-color: rgba(59, 130, 246, 0.05);
   border-left: 4px solid var(--color-accent);
   border-radius: var(--rounded-lg);
 }
 
-.about-highlights p {
-  margin-bottom: var(--spacing-md);
+.skills-highlight p {
   color: var(--color-text);
+  margin-bottom: var(--spacing-md);
+  font-size: 0.95rem;
+  line-height: 1.7;
 }
 
-.about-highlights p:last-child {
+.skills-highlight p:last-child {
   margin-bottom: 0;
 }
 
-.about-skills h3 {
-  margin-bottom: var(--spacing-lg);
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: var(--spacing-md);
-  margin-bottom: var(--spacing-xl);
-}
-
-.skill-tag {
-  display: block;
-  padding: var(--spacing-sm) var(--spacing-md);
-  background-color: rgba(59, 130, 246, 0.1);
-  border: 1px solid var(--color-accent);
-  border-radius: var(--rounded-lg);
+.skills-highlight strong {
   color: var(--color-accent);
   text-align: center;
   font-size: 0.875rem;
@@ -798,7 +778,7 @@ body {
 
 .cert-list {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .cert-list li {
@@ -1265,20 +1245,44 @@ button:disabled {
 }
 
 /* =============================================
+   UTILITY CLASSES
+   ============================================= */
+
+.mt-lg {
+  margin-top: var(--spacing-lg);
+}
+
+.mt-md {
+  margin-top: var(--spacing-md);
+}
+
+.mt-3xl {
+  margin-top: var(--spacing-3xl);
+}
+
+.mb-md {
+  margin-bottom: var(--spacing-md);
+}
+
+.mb-2xl {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+/* =============================================
    RESPONSIVE
    ============================================= */
 
 @media (max-width: 768px) {
   .section-header h2 {
     font-size: 1.75rem;
-  }
-  
-  .about-content {
-    gap: var(--spacing-lg);
-  }
-  
-  .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 </style>
