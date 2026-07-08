@@ -29,9 +29,9 @@
         <div class="hero-content animate-fadeInUp">
           <p class="hero-greeting">Hi, my name is</p>
           <h1 class="hero-name">Mary Mengistu</h1>
-          <p class="hero-tagline">I build digital solutions that make businesses work smarter.</p>
+          <p class="hero-tagline">Information Technology Graduate & Software Engineer</p>
           <p class="hero-bio">
-            I'm a Software Engineer based in Addis Ababa, Ethiopia, with a Bachelor's in Information Technology and a Software Engineering Certificate from ALX. I specialize in building full-stack web applications, automating business processes, and designing network infrastructure.
+            I build digital solutions that improve business efficiency through modern web applications, workflow automation, and reliable IT solutions. With a background in Information Technology, I'm passionate about solving real-world problems using both software development and networking technologies.
           </p>
           <div class="hero-cta">
             <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -63,27 +63,30 @@
 
         <div class="experience-timeline about-timeline">
           <div class="timeline-item animate-fadeInUp" style="animation-delay: 0.1s">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <div class="timeline-header">
-                <h3>Mary Mengistu</h3>
-                <span class="timeline-date">Software Engineer</span>
-              </div>
+  <div class="timeline-marker"></div>
+  <div class="timeline-content">
+    <div class="timeline-header">
+      <h3>Mary Mengistu</h3>
+      <span class="timeline-date">Software Engineer & IT Professional</span>
+    </div>
 
-              <p class="timeline-company">Addis Ababa, Ethiopia</p>
-              <p>
-                I'm a Software Engineer with a <strong>BSc in Information Technology</strong> and a
-                <strong> Software Engineering Certificate from ALX</strong>. I specialize in
-                building full-stack web applications, automating business processes, and
-                designing network infrastructure.
-              </p>
+    <p class="timeline-company">Addis Ababa, Ethiopia</p>
 
-              <div class="about-highlights">
-                <p><span class="icon">📌</span> BSc in IT | ALX Certified</p>
-                <p><span class="icon">🎯</span> Open to Jobs, Internships, Freelance & Collaboration</p>
-              </div>
-            </div>
-          </div>
+    <p>
+      I'm an <strong>Information Technology graduate</strong> and
+      <strong>ALX Software Engineering graduate</strong> passionate about building
+      practical technology solutions. My experience spans software development,
+      networking, and IT systems, enabling me to develop scalable web applications,
+      automate business processes, and design reliable network infrastructures.
+      I'm always eager to learn, adapt, and contribute to impactful technology projects.
+    </p>
+
+    <div class="about-highlights">
+      <p><span class="icon">🎓</span> BSc in Information Technology | ALX Software Engineering Graduate</p>
+      <p><span class="icon">💼</span> Open to Software Development, Networking, IT Support, Graduate Programs & Collaboration</p>
+    </div>
+  </div>
+</div>
 
           <div class="timeline-item animate-fadeInUp" style="animation-delay: 0.2s">
             <div class="timeline-marker"></div>
@@ -96,7 +99,7 @@
                 <span class="skill-tag">Python (Flask, Django),&emsp;</span>
                 <span class="skill-tag">JavaScript (ES6+),&emsp;</span>
                 <span class="skill-tag">Vue.js,&emsp;</span>
-                <span class="skill-tag">React.js,&emsp;</span>
+                <span class="skill-tag">Tailwind CSS,&emsp;</span>
                 <span class="skill-tag">PHP (Laravel),&emsp;</span>
                 <span class="skill-tag">HTML5 & CSS3,&emsp;</span>
                 <span class="skill-tag">MySQL,&emsp;</span>
@@ -877,6 +880,12 @@ body {
   border: 1px solid var(--color-border);
   border-radius: var(--rounded-lg);
   transition: all var(--transition-base);
+}
+.timeline-content p {
+  text-align: justify;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
 }
 
 .timeline-content:hover {
