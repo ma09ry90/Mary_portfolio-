@@ -107,7 +107,6 @@
                 <span class="skill-tag">Git & GitHub,&emsp;</span>
                 <span class="skill-tag">API Integration,&emsp;</span>
                 <span class="skill-tag">Cisco Packet Tracer,&emsp;</span>
-                <span class="skill-tag">Power Automate</span>
               </div>
 
               <div class="education mt-lg">
@@ -148,8 +147,9 @@
               <p class="timeline-company">Omishtu Joy Tech Solutions</p>
               <p class="timeline-location">Addis Ababa, Ethiopia</p>
               <ul class="timeline-responsibilities">
-                <li>Built and deployed a fully functional blog website with content management features</li>
-                <li>Collaborated with the development team on various web projects</li>
+                <li>Learned and applied Laravel and Vue.js through a project-based internship under the guidance of an experienced mentor</li>
+                <li>Developed a blog website with content management features as part of hands-on project work</li>
+                <li>Gained practical experience in full-stack web development and collaborative development workflows</li>
               </ul>
             </div>
           </div>
@@ -165,7 +165,8 @@
               <p class="timeline-location">Assosa, Ethiopia</p>
               <ul class="timeline-responsibilities">
                 <li>Provided IT support and technical assistance for the organization's programs and activities</li>
-                <li>Built a simple website that showcases the organization's works</li>
+                <li>Designed and developed a fully functional organizational website to showcase programs, projects, publications, and organizational information</li>
+                <li>Implemented key features including membership registration and administrative content management functionality</li>
               </ul>
             </div>
           </div>
@@ -198,6 +199,15 @@
               <div class="project-tags">
                 <span class="tag" v-for="(tech, i) in project.technologies" :key="i">{{ tech }}</span>
               </div>
+                    <a 
+                      v-if="project.link"
+                      :href="project.link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="project-link"
+                    >
+                      Visit Website →
+                    </a>
             </div>
           </article>
         </div>
@@ -305,11 +315,12 @@
 <script>
 // Import all images
 import handyStore from '@/assets/handy_store.png'
-//import inventorySystem from '@/assets/inventory_system.jpg'
+import procurementSystem from '@/assets/procurement-system.png'
+import gladWebsite from '@/assets/gladwebsite.png'
+import bdaWebsite from '@/assets/bdawebsite.png'
+import blogWebsite from '@/assets/blog-website.png'
 import ushelf from '@/assets/ushelf.png'
 import wloyeTaskTracker from '@/assets/wloye-task-tracker.png'
-import librarySystem from '@/assets/library-system.png'
-import blogWebsite from '@/assets/blog-website.png'
 export default {
   name: 'App',
   data() {
@@ -318,63 +329,72 @@ export default {
       isMobileMenuOpen: false,
       currentYear: new Date().getFullYear(),
       
-      projects: [
-        {
-          title: 'Handy Store — Multi-Vendor E-Commerce Platform',
-          description: 'Full-featured multi-vendor e-commerce with payment integration, wishlist, cart, reviews, AR view, and social video page with like/comment/share functionality with simple delivery system.',
-          technologies: ['Vue.js', 'Laravel', 'MySQL', 'Chapa Payment Gateway'],
-          image: handyStore
-        },
-        {
-          title: 'Enterprise Inventory & Sales Management System',
-          description: 'Comprehensive inventory and sales management system with stock tracking, sales reporting, analytics dashboard, and role-based access.',
-          technologies: ['Django', 'Python', 'PostgreSQL', 'HTML', 'CSS', 'JavaScript']
-        },
-        {
-          title: 'Ushelf — Document Collection & File Sharing Platform',
-          description: 'Platform for collecting documents with secure file sharing via invitation links.',
-          technologies: ['Flask', 'HTML', 'CSS', 'JavaScript'],
-          image: ushelf
-        },
-        {
-          title: 'Wloye Task Tracker',
-          description: 'Task tracker with Personal, Career, and Special categories plus community engagement features (Telegram & Instagram integration).',
-          technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-          image: wloyeTaskTracker
-        },
-        {
-          title: 'Library Management System',
-          description: 'Desktop application with book borrowing, return tracking, and user management.',
-          technologies: ['Java', 'NetBeans IDE'],
-          image: librarySystem
-        },
-        {
-          title: 'Blog Website',
-          description: 'Built and maintained a blog website with content management features during my internship.',
-          technologies: ['Vue.js', 'Laravel'],
-          image: blogWebsite
-        }
-      ],
-      networkProjects: [
-        {
-          title: 'EIGRP, BGP & NAT Configuration',
-          description: 'Designed and configured network topologies using routing protocols and NAT in Cisco Packet Tracer.',
-          technologies: ['Cisco Packet Tracer', 'EIGRP', 'BGP', 'NAT']
-        },
-        {
-          title: 'Subnetting Design — Varnero Building Wing 8',
-          description: 'Designed an IP addressing scheme and subnetting plan for a multi-floor building with detailed technical documentation.',
-          technologies: ['Subnetting', 'IP Planning', 'Technical Documentation']
-        }
-      ],
-      projectImageMap: {
-        0: '@/assets/handy_store.jpg',
-        1: '@/assets/inventory-system.jpg',
-        2: '@/assets/ushelf.jpg',
-        3: '@/assets/wloye-task-tracker.jpg',
-        4: '@/assets/library-system.jpg',
-        5: '@/assets/blog-website.jpg'
-      }
+projects: [
+  {
+    title: 'Handy Store — Multi-Vendor E-Commerce Platform',
+    description: 'Full-featured multi-vendor e-commerce platform with payment integration, wishlist, cart, reviews, AR view, social video features, and a delivery system.',
+    technologies: ['Vue.js', 'Laravel', 'MySQL', 'Chapa Payment Gateway'],
+    image: handyStore
+  },
+  {
+    title: 'Procurement Management System',
+    description: 'Web-based procurement management system designed to streamline and automate procurement processes, including purchase requests, approvals, supplier management, and procurement workflow management.',
+    technologies: ['Laravel', 'PostgreSQL', 'Vue.js', 'Tailwind CSS'],
+    image: procurementSystem
+  },
+  {
+    title: 'GLAD Organization Website',
+    description: 'A fully functional organizational website developed to showcase programs, projects, publications, and organizational information, with membership registration and administrative content management functionality.',
+    technologies: ['Django', 'Python', 'PostgreSQL', 'Vue.js', 'JavaScript'],
+    image: gladWebsite
+  },
+  {
+    title: 'BDA Organization Website',
+    description: 'A fully functional organizational website developed to showcase programs, projects, publications, and organizational information, with membership registration and content management functionality.',
+    technologies: ['Django', 'Python', 'PostgreSQL', 'Vue.js', 'JavaScript'],
+    image: bdaWebsite,
+    link: 'https://bda2015.org/'
+  },
+  {
+    title: 'Omishtu Blog Website',
+    description: 'A blog website with content management features developed as part of a project-based internship under mentor guidance.',
+    technologies: ['Vue.js', 'Laravel'],
+    image: blogWebsite
+  },
+  {
+    title: 'Ushelf — Document Collection & File Sharing Platform',
+    description: 'Platform for collecting documents with secure file sharing via invitation links.',
+    technologies: ['Flask', 'HTML', 'CSS', 'JavaScript'],
+    image: ushelf
+  },
+  {
+    title: 'Wloye Task Tracker',
+    description: 'Task tracker with Personal, Career, and Special categories plus community engagement features.',
+    technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    image: wloyeTaskTracker
+  }
+],
+networkProjects: [
+  {
+    title: 'EIGRP, BGP & NAT Configuration',
+    description: 'Designed and configured network topologies using routing protocols and NAT in Cisco Packet Tracer.',
+    technologies: ['Cisco Packet Tracer', 'EIGRP', 'BGP', 'NAT']
+  },
+  {
+    title: 'Subnetting Design — Varnero Building Wing 8',
+    description: 'Designed an IP addressing scheme and subnetting plan for a multi-floor building with detailed technical documentation.',
+    technologies: ['Subnetting', 'IP Planning', 'Technical Documentation']
+  }
+],
+projectImageMap: {
+  0: '@/assets/handy_store.png',
+  1: '@/assets/procurement-system.png',
+  2: '@/assets/gladwebsite.png',
+  3: '@/assets/bdawebsite.png',
+  4: '@/assets/blog-website.png',
+  5: '@/assets/ushelf.png',
+  6: '@/assets/wloye-task-tracker.png'
+}
     }
   },
   mounted() {
@@ -1057,6 +1077,18 @@ body {
   margin-bottom: var(--spacing-lg);
   color: var(--color-text-muted);
   line-height: 1.6;
+}
+
+.project-link {
+  display: inline-flex;
+  margin-top: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.project-link:hover {
+  transform: translateX(4px);
 }
 
 .project-tags {
